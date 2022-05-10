@@ -1,0 +1,6 @@
+
+- name: Setup database hosts
+  hosts: all
+ 
+  roles:
+    - role: geerlingguy.postgresql
