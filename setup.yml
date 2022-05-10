@@ -1,6 +1,9 @@
 
 - name: Setup database hosts
   hosts: all
+  become: yes
  
   roles:
     - role: geerlingguy.postgresql
+    - role: geerlingguy.apache
+    - role: geerlingguy.php
