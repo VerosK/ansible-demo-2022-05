@@ -1,0 +1,11 @@
+---
+postgresql_databases:
+   - name: demo
+     owner: owner
+   - name: ansible
+     owner: ansible
+
+postgresql_users:
+   - name: demo
+     password: 'nbusr123'
+   - name: ansible
