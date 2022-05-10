@@ -1,7 +1,7 @@
 ---
 postgresql_databases:
    - name: demo
-     owner: owner
+     owner: demo
    - name: ansible
      owner: ansible
 
