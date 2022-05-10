@@ -1,0 +1,6 @@
+
+# local.adminer/defaults/main.yml
+
+adminer_dir: /opt/adminer
+adminer_source_url: 
+    https://github.com/vrana/adminer/releases/download/v4.8.1/adminer-4.8.1.php
